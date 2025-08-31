@@ -143,7 +143,17 @@
             margin-top: 0.5rem;
         }
 
-        /* Link styling */
+        /* Global link styling */
+        a {
+            color: var(--link);
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--link-hover);
+        }
+
+        /* Specific styling for contact links */
         .links a {
             color: var(--link);
             text-decoration: none;
@@ -266,6 +276,14 @@
             margin-top: 0.75rem;
             font-size: 0.9rem;
             color: var(--text-muted);
+            flex-wrap: wrap;
+        }
+
+        /* Meta item wrapper to keep separator with content */
+        .project-meta span {
+            display: inline-flex;
+            align-items: baseline;
+            white-space: nowrap;
         }
 
         /* Separator between meta items */
