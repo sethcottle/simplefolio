@@ -12,7 +12,7 @@ A dead-simple, highly accessible portfolio template. No build tools, no dependen
 - **Fully accessible**: WCAG AAA compliant, keyboard navigable, screen reader friendly
 - **Responsive**: Looks great on all devices
 - **Semantic HTML**: properly structured for SEO and accessibility
-- **Lightning fast**: single file, no dependencies, under 10KB
+- **Lightning fast**: single file, no dependencies, under 20KB
 - **Easy to customize**: well-commented code, CSS variables for theming
 - **Clean typography**: optimal readability with proper link indicators
 - **Smart year display**: shows "this year", "last year", etc. (uses JS)
